@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    background-image: url('./assets/07.png'); 
+    background-size: cover ;
+    
+    
+    
+  }
+  
+  
+  
+  div {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 100px rgba(75, 30, 30, 0.1);
+    
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: hwb(0 100% 0%);
+  }
+  
+  button {
+    background-color: #2ed64a;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ffffff;
+  }
+  
+  div.password {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #b18f8f;
+    word-break: break-all;
+  }
+  
+  .senhaGerada{
+    color: #ffffff;
+  }
